@@ -7,7 +7,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
-    name="asrl-pylgmath",
+    name="pylgmath",
     version="1.0.3",
     author="Yuchen Wu",
     author_email="cheney.wu@mail.utoronto.ca",
@@ -17,6 +17,6 @@ setuptools.setup(
     url="https://github.com/utiasASRL/pylgmath",
     packages=setuptools.find_packages(),
     license="BSD",
-    python_requires='>=3.8',
+    python_requires=">=3.8",
     install_requires=["numpy>=1.21.0", "scipy>=1.7.0"],
 )
